@@ -8,3 +8,5 @@ df = pd.read_csv('flightdelays.csv')
 df1 = df[df['Origin'] == 'SFO']
 df2 = df1[['Origin','ArrDelay']][:3]
 df2.to_csv("first3sfo1.csv",index=False)
+
+print("\n RAVINDER SINGH")
